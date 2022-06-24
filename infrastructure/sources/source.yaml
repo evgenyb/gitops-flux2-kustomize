@@ -3,7 +3,7 @@ apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: HelmRepository
 metadata:
   name: ingress-nginx
-  namespace: cluster-config
+  namespace: nginx-ingress
 spec:
   interval: 1m0s
   url: https://kubernetes.github.io/ingress-nginx
